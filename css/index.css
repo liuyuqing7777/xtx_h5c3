@@ -1,0 +1,416 @@
+/* 放index页面的样式表 */
+/* 1、中秋板块 */
+.banner {
+    height: 500px;
+}
+.banner .wrapper {
+    height: 500px;
+    background-image: url(../uploads/banner_1.png);
+}
+.banner .wrapper .bian {
+    float: left;
+    width: 251px;
+	height: 500px;
+	background-color: #000000;
+	opacity: 0.8;
+}
+.banner .wrapper .bian a {
+    display: block;
+    padding-left: 36px;
+    color: #fff;
+    width: 251px;
+	height: 50px;
+    line-height: 50px;
+}
+.banner .wrapper .bian .s1 {
+    font-size: 16px;
+    padding-right: 15px;
+}
+.banner .wrapper .bian .s2 {
+    font-size: 14px;
+}
+.banner .wrapper .bian .s3 {
+    float: right;
+    padding-right: 19px;
+} 
+.banner .wrapper .anniu {
+    margin-top: 228px;
+    width: 44px;
+	height: 44px;
+	background-color: #000000;
+	opacity: 0.2;
+    border-radius: 50%;
+    text-align: center;
+    
+}
+.banner .wrapper .anniu a {
+    display: block;
+    color: #f4f2f0;
+    font-size: 30px;
+}
+.banner .wrapper .anniu1 {
+    float: left;
+    margin-left: 10px;
+}
+.banner .wrapper .anniu2 {
+    float: right;
+    margin-right: 10px;
+}
+.goods {
+    height: 1100px;
+    background-color: #fff;
+}
+/* 2、货物板块 */
+.goods .wrapper .zi {
+    height: 115px;
+}
+.goods .wrapper .zi h3 {
+    float: left;
+    padding-top: 50px;
+    font-weight: normal;
+    font-size: 30px;
+}
+.goods .wrapper .zi h6 {
+    float: left;
+    padding-top: 65px;
+    padding-left: 35px;
+    font-weight: normal;
+    font-size: 16px;
+    color: #999;
+}
+.goods .wrapper .zi a {
+    float: right;
+    display: block;
+    padding-top: 65px;
+    width: 85px;
+    height: 16px;
+    color: #999;
+}
+.goods .wrapper .tupian1 li {
+    float: left;
+    position: relative;
+    margin-right: 8px;
+    width: 304px;
+	height: 405px;
+	background-color: #f0f9f4;
+}
+.goods .wrapper .tupian1 li:nth-child(4n) {
+    margin-right: 0;
+}
+.goods .wrapper .tupian1 li img {
+    width: 304px;
+	height: 305px;
+}
+.goods .wrapper .tupian1 li h1 {
+    margin-top: 22px;
+    height: 20px;
+	font-family: PingFangSC-Regular;
+	font-size: 20px;
+	font-weight: normal;
+    text-align: center;
+}
+.goods .wrapper .tupian1 li h6 {
+    margin-top: 19px;
+    height: 18px;
+	font-family: PingFangSC-Medium;
+	font-size: 23px;
+	font-weight: normal;
+	color: #9a2e1f;
+    text-align: center;
+}
+.goods .wrapper .tupian1 li .xinpin {
+    position: absolute;
+    left: 17px;
+    top: 18px;
+    width: 28px;
+	height: 51px;
+    color: #27ba9b;
+    border: 2px solid #27ba9b;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.zi1 {
+    float: left;
+    width: 1240px;
+    height: 115px;
+}
+.zi1 h3 {
+    float: left;
+    padding-top: 50px;
+    font-weight: normal;
+    font-size: 30px;
+}
+.zi1 h6 {
+    float: left;
+    padding-top: 65px;
+    padding-left: 35px;
+    font-weight: normal;
+    font-size: 16px;
+    color: #999;
+}
+.goods .wrapper .tupian2 li {
+    float: left;
+    position: relative;
+    margin-right: 8px;
+    width: 304px;
+	height: 405px;
+}
+.goods .wrapper .tupian2 li:nth-child(4n) {
+    margin-right: 0;
+}
+.goods .wrapper .tupian2 li img {
+    width: 304px;
+	height: 305px;
+}
+.goods .wrapper .tupian2 li h1 {
+    margin-top: 22px;
+    height: 20px;
+	font-family: PingFangSC-Regular;
+	font-size: 20px;
+	font-weight: normal;
+    text-align: center;
+}
+.goods .wrapper .tupian2 li h2 {
+    padding-top: 18px;
+    height: 16px;
+	font-family: PingFangSC-Regular;
+	font-size: 16px;
+	font-weight: normal;
+	color: #999;
+    text-align: center;
+}
+/* 3、热门品牌模块 */
+.brand {
+    height: 466px;
+	background-color: #f5f5f5;
+}
+.brand .wrapper .zi1 a {
+    display: block;
+    width: 20px;
+	height: 20px;
+    text-align: center;
+    color: #fff;
+	background-color: #e2e2e2;
+}
+.brand .wrapper .zi1 a:hover {
+    background-color: #27ba9b;
+}
+.brand .wrapper .zi1 li {
+    float: right;
+    margin-right: 12px;
+    margin-top: 80px;
+}
+.brand .wrapper .zi1 li:nth-child(2n+1) {
+    margin-right: 0;
+}
+.brand .wrapper .brand1 li img {
+    width: 244px;
+	height: 306px;
+}
+.brand .wrapper .brand1 li {
+    float: left;
+    margin-right: 5px;
+}
+.brand .wrapper .brand1 li:nth-child(5n) {
+    margin-right: 0;
+}
+/* 4、生鲜模块 */
+.fresh {
+    height: 760px;
+    background-color: #fff;
+}
+.fresh .wrapper .shengxian {
+    float: left;
+    width: 1240px;
+    height: 95px;
+}
+.fresh .wrapper .shengxian h1 {
+    float: left;
+    margin-top: 34px;
+    font-size: 30px;
+    font-weight: 400;
+    color: #333333;
+}
+.fresh .wrapper .shengxian ul {
+    float: left;
+    margin-left: 675px;
+}
+.fresh .wrapper .shengxian ul li {
+    float: left;
+}
+.fresh .wrapper .shengxian li a {
+    display: block;
+    margin-right: 6px;
+    margin-top: 40px;
+    padding: 2px 7px;
+    font-size: 16px;
+    color: #333;
+}
+.fresh .wrapper .shengxian li a:hover {
+    color: #fefbfc;
+    background-color: #27ba9b;
+}
+.fresh .wrapper .shengxian .chakan {
+    float: right;
+    display: block;
+    padding-top: 43px;
+    width: 85px;
+    height: 16px;
+    color: #999;
+}
+.fresh .wrapper .fresh1 .cover {
+    float: left;
+    margin-right: 8px;
+    width: 240px;
+	height: 610px;
+}
+.fresh .wrapper .fresh1 li {
+    float: left;
+    margin-right: 8px;
+    margin-bottom: 3px;
+	background-color: #ffffff;
+}
+.fresh .wrapper .fresh1 li:nth-child(4n) {
+    margin-right: 0;
+    margin-bottom: 0;
+}
+.fresh .wrapper .fresh1 li img {
+    margin-top: 10px;
+    margin-left: 30px;
+    width: 166px;
+	height: 166px;
+}
+.fresh .wrapper .fresh1 li a {
+    position: relative;
+    display: block;
+    width: 242px;
+	height: 304px;
+}
+.fresh .wrapper .fresh1 li a div {
+    float: left;
+    height: 87px;
+    margin-top: 12px;
+    margin-left: 30px;
+}
+.fresh .wrapper .fresh1 li a div p {
+    font-family: PingFangSC-Regular;
+	font-size: 16px;
+    color: #333333;
+}
+.fresh .wrapper .fresh1 li a div .jiage {
+    font-family: PingFangSC-Medium;
+	font-size: 22px;
+    color: #9a2e1f;
+}
+.fresh .wrapper .fresh1 li a .yincang {
+    position: absolute;
+    left: -32px;
+    bottom: -2px;
+    display: none;
+    width: 242px;
+	height: 88px;
+	background-color: #27ba9b;
+}
+.fresh .wrapper .fresh1 li a:hover .yincang {
+    display: block;
+}
+.fresh .wrapper .fresh1 li a:hover .yincang h1 {
+    margin: 13px auto 0px;
+    font-size: 18px;
+	font-weight: normal;
+    width: 125px;
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+    color: #fff;
+    border-bottom: 1px solid #fff;
+}
+.fresh .wrapper .fresh1 li a:hover .yincang h2 {
+    margin: 0px auto;
+    font-size: 14px;
+	font-weight: normal;
+    width: 125px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    color: #fff;
+}
+.fresh .wrapper .fresh1 li a:hover {
+    border: 2px solid #27ba9b;
+}
+/* 5、最新专题模块 */
+.new {
+    height: 512px;
+	background-color: #f5f5f5;
+}
+.new .wrapper .zi1 a {
+    float: right;
+    margin-top: 70px;
+    width: 85px;
+	height: 16px;
+	font-family: PingFangSC-Regular;
+	font-size: 16px;
+	color: #999999;
+}
+.new .wrapper li {
+    float: left;
+    margin-right: 14px;
+    width: 404px;
+	height: 356px;
+	background-color: #ffffff;
+}
+.new .wrapper li:nth-child(3n) {
+    margin-right: 0;
+}
+.new .wrapper li img {
+    width: 404px;
+	height: 288px;
+}
+.new .wrapper li span {
+    font-size: 14px;
+	font-weight: normal;
+    color: #333333;
+}
+.new .wrapper li .sp1 {
+    display: inline-block;
+    width: 15px;
+	height: 13px;
+    background-image: url(../images/sprites.png);
+    background-position: -120px -110px;
+}
+.new .wrapper li .sp2 {
+    display: inline-block;
+    width: 16px;
+	height: 12px;
+    background-image: url(../images/sprites.png);
+    background-position: -160px -110px;
+}
+.new .wrapper li .sp3 {
+    display: inline-block;
+    width: 16px;
+	height: 16px;
+    background-image: url(../images/sprites.png);
+    background-position: -200px -110px;
+}
+.new .wrapper li div {
+    float: left;
+    margin-top: 26px;
+}
+.new .wrapper li .d1 {
+    margin-left: 15px;
+} 
+.new .wrapper li .d2 {
+    margin-left: 24px;
+}
+.new .wrapper li .d3 {
+    margin-top: 30px;
+    margin-left: 205px;
+    
+}
+.new .wrapper li .d3 span {
+    display: block;
+    float: left;
+    height: 16px;
+    line-height: 16px;
+}

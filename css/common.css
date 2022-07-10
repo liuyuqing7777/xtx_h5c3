@@ -1,0 +1,237 @@
+/* 各个页面相同的样式表：头部、尾部等 */
+/* 1、快捷导航栏部分 */
+.wrapper {
+    width: 1240px;
+    margin: 0 auto;
+}
+.shortcut {
+    height: 52px;
+	background-color: #333333;
+}
+.shortcut .wrapper .nav1 ul {
+    float: right;
+}
+.shortcut .wrapper .nav1 ul li {
+    float: left;
+    list-style: none;
+    width: 88px;
+	height: 52px;
+    line-height: 52px;
+}
+.shortcut .wrapper .nav1 ul li a {
+    display: block;
+    margin-top: 19px;
+    text-decoration: none;
+    height: 14px;
+    line-height: 14px;
+	font-family: PingFangSC-Regular;
+	font-size: 14px;
+	font-weight: normal;
+	font-stretch: normal;
+	letter-spacing: 0px;
+	color: #dcdcdc;
+    text-align: center;
+    border-right: 1px solid #666;
+}
+.shortcut .wrapper .nav1 ul li span {
+    display: inline-block;
+    margin-left: 15px;
+    width: 11px;
+	height: 16px;
+    background-image: url(../images/sprites.png);
+    background-position: -160px -70px;
+}
+
+.shortcut .wrapper .nav1 ul li .seven {
+    float: right;
+
+    border-right: 0;
+    width: 42px;
+}
+/* 2、导航栏 */
+.nav {
+    height: 130px;
+    background-color: #fff;
+}
+.nav .wrapper img {
+    float: left;
+    margin-left: 25px;
+    margin-top: 30px;
+    width: 210px;
+    height: 72px;
+}
+.nav .wrapper ul {
+    float: left;
+    margin-left: 38px;
+}
+.nav .wrapper ul li {
+    float: left;
+    margin-top: 50px;
+    width: 80px;
+    height: 32px;
+}
+.nav .wrapper ul li a {
+    display: block;
+    float: left;
+    width: 32px;
+    height: 32px;
+    line-height: 32px;
+}
+.nav .wrapper ul li a:hover {
+    color: #27ba9b;
+    border-bottom: 1px solid #27ba9b;
+}
+.nav .wrapper .sousuo {
+    float: left;
+    margin-top: 54px;
+    margin-left: 25px;
+    border-bottom: 2px solid #e7e7e7;;
+    width: 172px;
+	height: 30px;
+}
+.nav .wrapper .sousuo .s1 {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-image: url(../images/sprites.png);
+    background-position: -80px -70px;
+}
+.nav .wrapper .sousuo input {
+    float: right;
+    width: 140px;
+}
+.nav .wrapper .s2 {
+    display: inline-block;
+    margin-top: 54px;
+    margin-left: 15px;
+    width: 23px;
+	height: 23px;
+    background-image: url(../images/sprites.png);
+    background-position: -120px -70px;
+}
+/* 3、底部1 */
+.dibu1 {
+    height: 300px;
+    background-color: #fff;
+}
+.dibu1 .wrapper ul li {
+    float: left;
+    margin-right: 15px;
+    width: 300px;
+    height: 300px;
+}
+.dibu1 .wrapper ul .li1 {
+    border-right: 2px solid #f4f4f4;
+}
+.dibu1 .wrapper ul li:nth-child(4n) {
+    margin-right: 0;
+    width: 295px;
+}
+.dibu1 .wrapper ul li p {
+    font-size: 16px;
+    color: #999;
+    text-align: center;
+}
+.dibu1 .wrapper ul li .haoma {
+    margin-left: 80px;
+    font-size: 22px;
+    color: #666;
+    text-align: center;
+}
+.dibu1 .wrapper ul li a {
+    display: block;
+    float: left;
+    margin-right: 6px;
+    width: 93px;
+    height: 92px;
+    border: 1px solid #f2f2f2;
+}
+.dibu1 .wrapper ul li a .ds1 {
+    display: inline-block;
+    margin-left: 30px;
+    margin-top: 20px;
+    width: 29px;
+    height: 28px;
+    background-image: url(../images/sprites.png);
+    background-position: -205px -70px;
+}
+.dibu1 .wrapper ul li a .ds2 {
+    display: inline-block;
+    margin-left: 30px;
+    margin-top: 20px;
+    width: 29px;
+    height: 28px;
+    background-image: url(../images/sprites.png);
+    background-position: -350px -70px;
+}
+.dibu1 .wrapper ul li a .ds3 {
+    display: inline-block;
+    margin-left: 26px;
+    margin-top: 18px;
+    width: 36px;
+    height: 29px;
+    background-image: url(../images/sprites.png);
+    background-position: -205px -14px;
+}
+.dibu1 .wrapper ul li a .ds4 {
+    display: inline-block;
+    margin-left: 26px;
+    margin-top: 18px;
+    width: 36px;
+    height: 29px;
+    background-image: url(../images/sprites.png);
+    background-position: -350px -14px;
+}
+.dibu1 .wrapper ul li .la {
+    margin-left: 60px;
+}
+.dibu1 .wrapper ul li .p {
+    margin-top: 80px;
+    margin-bottom: 35px;
+}
+.dibu1 .wrapper ul li img {
+    float: left;
+    width: 116px;
+	height: 116px;
+    border: 2px solid #f3f3f3;
+}
+.dibu1 .wrapper ul li .pp {
+    text-align: left;
+    padding-left: 142px;
+}
+.dibu1 .wrapper ul li .xiazai {
+    margin-left: 25px;
+    margin-top: 20px;
+    width: 100px;
+    height: 32px;
+    line-height: 32px;
+    background-color: #27ba9b;
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
